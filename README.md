@@ -10,10 +10,10 @@ Obviously only explores the RESTful API using GET requests.
 Example Usage:
 =========
 Help:
-groovy HALSpider.groovy -h
+  - groovy HALSpider.groovy -h
 
-Explore to a depth of 3
-groovy HALSpider.groovy -d 3 http://haltalk.herokuapp.com/
+Explore to a depth of 3:
+  - groovy HALSpider.groovy -d 3 http://haltalk.herokuapp.com/
 
-Explore to a depth of 3 and send Authorization header
-groovy HALSpider.groovy -d 3 -a 'Basic: test' http://haltalk.herokuapp.com/
+Explore to a depth of 3 and send Authorization header:
+  - groovy HALSpider.groovy -d 3 -a 'Basic: test' http://haltalk.herokuapp.com/
