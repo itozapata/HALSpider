@@ -1,7 +1,7 @@
 HALSpider
 =========
 
-Walks HAL-Json format and attempts to exhaust all relations and report back the status of those calls
+Walks HAL-Json format and attempts to exhaust all relations without visting any link more then once and report back the status of those calls
 
 Supports depth limiting and authorization using the auth header.
 
