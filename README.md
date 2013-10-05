@@ -5,6 +5,8 @@ Walks HAL-Json format and attempts to exhaust all relations and report back the 
 
 Supports depth limiting and authorization using the auth header.
 
+Obviously only explores the RESTful API using GET requests.
+
 Example Usage:
 =========
 Help:
